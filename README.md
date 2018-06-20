@@ -1,5 +1,7 @@
 # LevelDB Example
 
+Environment: `Ubuntu 14.04`
+
 ## Prepare LevelDB
 
 ### Download the lastest release of LevelDB
@@ -35,7 +37,9 @@ sudo ldconfig
 ## Build & run the sample
 
 ```
-make
+git clone https://github.com/liuzhanhao/leveldb_example.git
+
+cd leveldb_example && make
 ./sample
 
 # check the output database
